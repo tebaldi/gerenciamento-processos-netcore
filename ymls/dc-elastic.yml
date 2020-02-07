@@ -1,0 +1,69 @@
+---
+version: '2.1'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.4.2
+    hostname: elasticsearch
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+      - "9300:9300"    
+    # volumes:
+      # - C:\Projetos\Docker Volumes\elasticsearch:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    environment:
+      xpack.security.enabled: "false"
+      XPACK_SECURITY_ENABLED: "false"
+      xpack.monitoring.enabled: "false"      
+      discovery.type: "single-node"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.4.2
+    hostname: kibana
+    container_name: kibana
+    # volumes:
+      # - ./kibana.yml:/usr/share/kibana/config/kibana.yml
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    ports:
+      - "5601:5601"          
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5601"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    environment:
+      xpack.security.enabled: "false"
+      xpack_security_enabled: "false"
+      xpack.monitoring.enabled: "false"
+      discovery.type: "single-node"
+      elasticsearch.url: http://elasticsearch:9200
+      server.host: "0.0.0.0"
+      server_host: "0.0.0.0"
+      server.name: "kibana"
+      server_name: "kibana"
+      xpack_graph_enabled: "false"
+      xpack_monitoring_enabled: "false"
+      xpack_reporting_enabled: "false"
+      xpack_security_enabled: "false"
+      
+  apm-server:
+    image: docker.elastic.co/apm/apm-server:7.4.2
+    hostname: apm-server
+    container_name: apm-server    
+    ports:
+      - "8200:8200"    
+    # volumes:
+      # - ./apm-server.docker.yml:/usr/share/apm-server/apm-server.yml:ro
+    depends_on:
+      kibana:
+        condition: service_healthy
+    environment:
+      output.elasticsearch.hosts: "[elasticsearch:9200]"
+      kibana.enabled: "true"
+      kibana.host: "[kibana:5601]"

@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "FT.GerenciamentoProcessosJudiciais.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ElasticApm__LogLevel": "Debug",
+        "ElasticApm__ServerUrls": "http://localhost:8200",
+        "ElasticApm__ServiceName": "FT.GerenciamentoProcessosJudiciais.Api",
+        "ElasticApm__TransactionSampleRate": "1.0",
+        "RavenDbSettings__DatabaseName": "GerenciamentoProcessosJudiciais",
+        "ElasticApm__SecretToken": "",
+        "ElasticApm__CaptureHeaders": "false",
+        "RavenDbSettings__Urls": "http://localhost:8080"
+      },
+      "applicationUrl": "http://localhost:5001"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+---
+version: '2.2'
+services:
+  ravendb:
+    image: ravendb/ravendb:4.2.4-ubuntu.18.04-x64
+    hostname: ravendb
+    container_name: ravendb    
+    ports:
+      - "8080:8080"      
+      - "38888:38888"    
+    # network_mode: bridge
+    # volumes:
+      # - C:\Projetos\Docker Volumes\ravendb:/opt/RavenDB/config
+      # - C:\Projetos\Docker Volumes\ravendb:/opt/RavenDB/Server/RavenData
+    environment:
+      - RAVEN_Security_UnsecuredAccessAllowed=PublicNetwork
+      - RAVEN_Setup_Mode=None      
+      - RAVEN_License_Eula_Accepted=true
+      - RAVEN_ARGS='--log-to-console'

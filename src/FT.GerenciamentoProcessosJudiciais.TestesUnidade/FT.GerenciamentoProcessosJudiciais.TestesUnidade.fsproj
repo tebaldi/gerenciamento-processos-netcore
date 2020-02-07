@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+    <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="TesteProcessos\TesteAtualizacaoProcesso.fs" />
+    <Compile Include="TesteProcessos\TesteRemocaoProcesso.fs" />
+    <Compile Include="TesteProcessos\TesteProcesso.fs" />
+    <Compile Include="TestesReponsaveis\TesteRemocaoResponsavel.fs" />
+    <Compile Include="TestesReponsaveis\TesteAtualizacaoResponsavel.fs" />
+    <Compile Include="TestesReponsaveis\TesteResponsavel.fs" />
+    <Compile Include="TestesValores\TestePastaFisicaCliente.fs" />
+    <Compile Include="TestesValores\TesteSituacaoProcesso.fs" />
+    <Compile Include="TestesValores\TesteCpf.fs" />
+    <Compile Include="TestesValores\TesteIdProcesso.fs" />
+    <Compile Include="TestesValores\TesteDescricaoProcesso.fs" />
+    <Compile Include="TestesValores\TesteNomeResponsavel.fs" />
+    <Compile Include="TestesValores\TesteIdResponsavel.fs" />
+    <Compile Include="TestesValores\TesteEmail.fs" />
+    <Compile Include="TestesValores\TesteDataDistribuicao.fs" />
+    <Compile Include="TestesValores\TesteNumeroProcessoUnificado.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FT.GerenciamentoProcessosJudiciais.Dominio\FT.GerenciamentoProcessosJudiciais.Dominio.fsproj" />
+  </ItemGroup>
+
+</Project>

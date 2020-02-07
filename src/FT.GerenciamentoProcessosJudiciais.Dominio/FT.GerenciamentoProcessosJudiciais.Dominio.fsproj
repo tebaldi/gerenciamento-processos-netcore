@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Valores\Bases.fs" />
+    <Compile Include="Valores\DataDistribuicao.fs" />
+    <Compile Include="Valores\PastaFisicaCliente.fs" />
+    <Compile Include="Valores\SituacaoProcesso.fs" />
+    <Compile Include="Valores\NumeroProcessoUnificado.fs" />
+    <Compile Include="Valores\Email.fs" />
+    <Compile Include="Valores\Foto.fs" />
+    <Compile Include="Valores\IdProcesso.fs" />
+    <Compile Include="Valores\DescricaoProcesso.fs" />
+    <Compile Include="Valores\NomeResponsavel.fs" />
+    <Compile Include="Valores\IdResponsavel.fs" />
+    <Compile Include="Valores\Cpf.fs" />
+    <Compile Include="Responsaveis\Contratos\Eventos.fs" />
+    <Compile Include="Responsaveis\Contratos\Comandos.fs" />
+    <Compile Include="Responsaveis\Responsavel.fs" />
+    <Compile Include="Processos\Contratos\Eventos.fs" />
+    <Compile Include="Processos\Contratos\Comandos.fs" />
+    <Compile Include="Processos\Processo.fs" />
+    <Compile Include="CasosUso\Repositorios.fs" />
+    <Compile Include="CasosUso\InteradorProcessos.fs" />
+    <Compile Include="CasosUso\InteradorResponsaveis.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.5.1" />
+    <PackageReference Include="MediatR" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

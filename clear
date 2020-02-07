@@ -1,0 +1,392 @@
+[33mcommit 2e74199e4ad73040ed3a7095aea3b41f1193f5d7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Wed Nov 27 09:07:56 2019 -0300
+
+    git bash
+
+[33mcommit 4123bf28ca68d224d6dd62bdd5100d9db4df4436[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 25 15:33:12 2019 -0300
+
+    f# infra
+
+[33mcommit 516124c226ce334ddfbb9aa72bbb3755abb16f34[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 25 11:56:43 2019 -0300
+
+    f# infra
+
+[33mcommit 9b4c872dc5003178a602561e4ac1157cef008767[m
+Merge: b38ce61 418fc61
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 25 08:42:48 2019 -0300
+
+    Merge branch 'master' of https://github.com/fabiotebaldi/FT.GerenciamentoProcessosJudiciais.git
+
+[33mcommit b38ce6185a5c6dd27164216c4f83d146cdc4df30[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 25 08:42:22 2019 -0300
+
+    correção validacao limite hierarquia
+
+[33mcommit 418fc61bb4653023035ea641d96c4e288c573a31[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sat Nov 23 09:03:57 2019 -0300
+
+    Update README.md
+
+[33mcommit 1cae06047830f811f982fdab5ad1fde14f4fc478[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sat Nov 23 09:03:14 2019 -0300
+
+    rad
+
+[33mcommit fc2366f0ee2abb75ad4bffceb56e2ef4ddc97c81[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sat Nov 23 09:01:58 2019 -0300
+
+    testes
+
+[33mcommit 9b93570c17b6f75ef54c6945208f87815ca34883[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sat Nov 23 08:41:35 2019 -0300
+
+    docker check ip
+
+[33mcommit f4e5f32e2ed9539ab6bbd149d92fee06bedfced5[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sat Nov 23 08:24:09 2019 -0300
+
+    verificar testes
+
+[33mcommit fe16eb92365d8b91678a96d8746bc1654c6fe7dd[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 18:07:06 2019 -0300
+
+    testes processo
+
+[33mcommit ea324a26864ada2d3d1261f69cfb17099d591ee2[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 16:55:04 2019 -0300
+
+    f# notificacao email
+
+[33mcommit 5142cb3b4b50279dabde18f208cab693a3bf1281[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 16:36:24 2019 -0300
+
+    teste limite hierarquia
+
+[33mcommit 599aa1259e64f6c6cf2db9f698125b23c473cc03[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 15:50:40 2019 -0300
+
+    f# teste construcao processo
+
+[33mcommit 911723c900cab8d5030bd7bc051bc7a304859235[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 12:52:27 2019 -0300
+
+    f# estado processo
+
+[33mcommit a1b39f637c2c9de589425ab57d64aa5917cdc6f9[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 12:43:43 2019 -0300
+
+    f# processo
+
+[33mcommit 647b430160af46dcfe4f1a47194c9c3150487b9e[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 12:03:01 2019 -0300
+
+    f# comandos eventos processo
+
+[33mcommit cc0ff55e941026c9c84ede5a6247099f835954b5[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 11:44:55 2019 -0300
+
+    f# valores processo
+
+[33mcommit 2c721a9b45c55a3779e8db4eb54088e502c0c0ce[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 10:27:56 2019 -0300
+
+    f# values test
+
+[33mcommit 5993b54bd2a97f31d3caf3dbfa4da1af23bd26b2[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 09:49:51 2019 -0300
+
+    fold
+
+[33mcommit 2bcccc84d6a3a2e5b20dd9b621e7b89aea8e8ac0[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 09:41:28 2019 -0300
+
+    f# teste remoção responsavel
+
+[33mcommit 99a994d64338f40979626f8b7cad6a52cc366abe[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Fri Nov 22 09:20:53 2019 -0300
+
+    f# fold apply
+
+[33mcommit 066d478ac6de6c4b3bc1406b84e6b0391d6ceb83[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Thu Nov 21 16:12:03 2019 -0300
+
+    f# command test
+
+[33mcommit 475e374961c8856a615983bae00ee9a3233a31ff[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Thu Nov 21 10:18:59 2019 -0300
+
+    f# unit
+
+[33mcommit 0bfd53d5146c557ce00729953358aad23906d4ce[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Thu Nov 21 08:56:26 2019 -0300
+
+    responsaveis f#
+
+[33mcommit 6cbb22b97672d608a972ef4333d2e18ad57135c2[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Wed Nov 20 17:59:55 2019 -0300
+
+    remover respon
+
+[33mcommit bf46f7cbf3f48fef6e934262412ff7198884b913[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Wed Nov 20 17:53:35 2019 -0300
+
+    atualiazacao responsavel
+
+[33mcommit 53deebf9e91f1b3f18de71994690bb18c865d988[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Wed Nov 20 16:37:29 2019 -0300
+
+    some f%
+
+[33mcommit ae6d73e7f0b80ac28586d9af69bb3245794ab63c[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Wed Nov 20 11:02:04 2019 -0300
+
+    SubscriptionInUseException
+
+[33mcommit d5daac0a2ceb55937fe97bc8878d35f99ab91a85[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Wed Nov 20 10:44:57 2019 -0300
+
+    version update
+
+[33mcommit a6e1cbc4448f1aa01a1c57d240fa3b12516d752e[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Wed Nov 20 09:03:42 2019 -0300
+
+    serilog suport
+
+[33mcommit 346047b29c687c3b49c31f71030c92f664fea9b3[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Tue Nov 19 12:35:09 2019 -0300
+
+    compose health check
+
+[33mcommit 7266f1655372b75b08c30ea504e3496a764ae7ff[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Tue Nov 19 10:43:29 2019 -0300
+
+    remove raven bridge
+
+[33mcommit 970e6ecf26ed45806c9263fbf09a2380ada2b198[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Tue Nov 19 10:41:25 2019 -0300
+
+    elastic bridge
+
+[33mcommit 39ddd98c4fabfbbfadae8ca9804c1426bbbbbe98[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Tue Nov 19 10:36:33 2019 -0300
+
+    ymls
+
+[33mcommit c8b5940d2c4377b45f6e2274058e8206766dfba7[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Tue Nov 19 10:30:56 2019 -0300
+
+    elastic compose volume
+
+[33mcommit d6e2191e4996d4f1f0b12cff3bbcb3c167b77494[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Tue Nov 19 10:30:08 2019 -0300
+
+    elastic volume
+
+[33mcommit 460dc3454cab2ebcb4921a43a86922048a0d25ab[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Tue Nov 19 09:25:20 2019 -0300
+
+    event notification
+
+[33mcommit ee606ed752d1706ba98f526a693b8c8ddb75e581[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 18 17:18:40 2019 -0300
+
+    delay email notificationj
+
+[33mcommit 6aebecbde62a1436cf9df2ed826169bad6d56f69[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 18 15:14:18 2019 -0300
+
+    yamls
+
+[33mcommit 9957dfdc9f264ee5fda977a3bae7f69a77aed5bc[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 18 10:13:10 2019 -0300
+
+    ob
+
+[33mcommit 39db870469c140233bdd753740b41a40ab011942[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Mon Nov 18 09:06:45 2019 -0300
+
+    scheduler
+
+[33mcommit 1ae10a94ef74934dd02feb59e3b0221076c11cde[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 15:44:09 2019 -0300
+
+    das
+
+[33mcommit dbda8fb612f2e44345b2b8995200e3bf59870881[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 15:40:28 2019 -0300
+
+    yml
+
+[33mcommit 6a0c8bbe7d3038c7d3f18f7aa87a55f54e13c2e8[m
+Merge: b7a9486 c16c967
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 15:36:17 2019 -0300
+
+    Merge branch 'master' of https://github.com/fabiotebaldi/FT.GerenciamentoProcessosJudiciais.git
+
+[33mcommit b7a948641bd6462ae23b1887ab623aae10a84b53[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 15:35:57 2019 -0300
+
+    yamls
+
+[33mcommit 8c3011a2ae7214e212106fd0899fb782e50fb87d[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 15:35:19 2019 -0300
+
+    yanls
+
+[33mcommit c16c96763eb591780abae0eb6281c8e896f3abb6[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:31:28 2019 -0300
+
+    Update README.md
+
+[33mcommit 74ffb1c55d15b29d4a786a72c29ce23ea08c86f4[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:30:45 2019 -0300
+
+    Update README.md
+
+[33mcommit 39ac0461c255d210426ef0c5b32455c7219a3e68[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:28:19 2019 -0300
+
+    Update README.md
+
+[33mcommit e7f48241d9352ccd164519f3e01532aa7f44de52[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:27:40 2019 -0300
+
+    Update README.md
+
+[33mcommit c2fbac3834f1569f95481d49e93bee50000d4937[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:27:03 2019 -0300
+
+    Update README.md
+
+[33mcommit 75841deaa8cb51e577ae7e2c1b49df9bef4a8d66[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:26:31 2019 -0300
+
+    Update README.md
+
+[33mcommit f5c202b64dce969c507daa551b7e0039f95c1eb7[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:26:04 2019 -0300
+
+    Update README.md
+
+[33mcommit d3fc35d33e042721a625b35bc2b75478abbb3c9b[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:25:18 2019 -0300
+
+    Update README.md
+
+[33mcommit 67282925850edf65d37c3d279b73c13db626f3a1[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:24:49 2019 -0300
+
+    Update README.md
+
+[33mcommit 985288869dbd95769830463fab97805c1a9ce3cf[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:23:00 2019 -0300
+
+    Update README.md
+
+[33mcommit 2abc5ed1efa046f3c46bb413e0875b91f184a482[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:20:44 2019 -0300
+
+    Update README.md
+
+[33mcommit 84d5971fabb8e7b795ce01c9f9d7a44b998f2ca5[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:15:04 2019 -0300
+
+    Update README.md
+
+[33mcommit b114b6647f4d74db7377c3e8700353fcd09fb8ca[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:12:36 2019 -0300
+
+    Update README.md
+
+[33mcommit 4286cae01ef99812242ce908b8c5a468b7e9d35c[m
+Merge: 22f0c34 c960e02
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 15:09:50 2019 -0300
+
+    read me
+
+[33mcommit 22f0c34f34904e5e97f00ca7d844ca0b959f6cfd[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 15:03:38 2019 -0300
+
+    removed docs
+
+[33mcommit c960e020971db67529ee7593ac9c61e8fec23fa2[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 15:01:50 2019 -0300
+
+    Update README.md
+
+[33mcommit 06f17060966046d9507195a7d7cda49ef9077a8f[m
+Author: Fábio Tebaldi <fabiotebaldi@outlook.com>
+Date:   Sun Nov 17 14:54:11 2019 -0300
+
+    created
+
+[33mcommit 8995317994adf6f338cd379162db23716d0c0013[m
+Author: fabiotebaldi <57871768+fabiotebaldi@users.noreply.github.com>
+Date:   Sun Nov 17 14:48:00 2019 -0300
+
+    Create README.md

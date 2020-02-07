@@ -1,0 +1,12 @@
+---
+version: '2'
+services:
+  gerenciamentoprocessosjudiciais-jobs:
+    image: archt/gerenciamentoprocessosjudiciais.jobs:8973
+    hostname: gerenciamentoprocessosjudiciais-jobs
+    container_name: gerenciamentoprocessosjudiciais-jobs    
+    environment:      
+      - RavenDbSettings__DatabaseName=GerenciamentoProcessosJudiciais
+      - RavenDbSettings__Urls=http://ravendb:8080
+      - ElasticSettings__Uri=http://elasticsearch:9200
+      

@@ -1,0 +1,30 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: gerenciamentoprocessosjudiciais-jobs-deployment
+spec:
+  replicas: 2
+  minReadySeconds: 15
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: 
+      maxUnavailable: 1
+      maxSurge: 1 
+  template:
+    metadata:
+      labels:
+        app: ft-gerenciamentoprocessosjudiciais-jobs
+    spec:
+      containers:
+        - image: archt/gerenciamentoprocessosjudiciais.jobs:8973
+          imagePullPolicy: Always
+          name: ft-gerenciamentoprocessosjudiciais-jobs
+          env:
+            - name: RavenDbSettings__DatabaseName
+              value: "GerenciamentoProcessosJudiciais"
+            - name: RavenDbSettings__Urls
+              value: "http://172.26.0.2:8080"
+            - name: ElasticSettings__Uri
+              value: "http://172.26.0.3:9200"
+          ports:
+            - containerPort: 80

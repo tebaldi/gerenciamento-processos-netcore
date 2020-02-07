@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT.GerenciamentoProcessosJudiciais.TestesIntegracao", "FT.GerenciamentoProcessosJudiciais.TestesIntegracao\FT.GerenciamentoProcessosJudiciais.TestesIntegracao.csproj", "{81754D22-3037-4B7A-92FC-8E50058CAEC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT.GerenciamentoProcessosJudiciais.Api", "FT.GerenciamentoProcessosJudiciais.Api\FT.GerenciamentoProcessosJudiciais.Api.csproj", "{71C46332-9F81-444F-A1FE-E4F886DD6907}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT.GerenciamentoProcessosJudiciais.Infra", "FT.GerenciamentoProcessosJudiciais.Infra\FT.GerenciamentoProcessosJudiciais.Infra.csproj", "{9FDF241E-11AC-4BF2-9A6D-71FCACFD768D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT.GerenciamentoProcessosJudiciais.Relatorios", "FT.GerenciamentoProcessosJudiciais.Relatorios\FT.GerenciamentoProcessosJudiciais.Relatorios.csproj", "{9E674268-9B9C-4390-BDB7-18938F1AF48C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{6FF8232F-011D-4263-808D-3C45412550DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacao", "Aplicacao", "{ACFFAB5E-38F1-4F61-A8AE-1DD0DC0FDAE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{DBBC4834-DE03-467D-93FE-AE05D891EDFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT.GerenciamentoProcessosJudiciais.Jobs", "FT.GerenciamentoProcessosJudiciais.Jobs\FT.GerenciamentoProcessosJudiciais.Jobs.csproj", "{FA1F2972-A62E-4C2A-94E0-EA02FD00DEDD}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FT.GerenciamentoProcessosJudiciais.Dominio", "FT.GerenciamentoProcessosJudiciais.Dominio\FT.GerenciamentoProcessosJudiciais.Dominio.fsproj", "{7950CAE1-3C1B-4FC5-8508-6A3D2C979524}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FT.GerenciamentoProcessosJudiciais.TestesUnidade", "FT.GerenciamentoProcessosJudiciais.TestesUnidade\FT.GerenciamentoProcessosJudiciais.TestesUnidade.fsproj", "{ADED768B-6843-4925-80DC-55A550FA489C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81754D22-3037-4B7A-92FC-8E50058CAEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81754D22-3037-4B7A-92FC-8E50058CAEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81754D22-3037-4B7A-92FC-8E50058CAEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81754D22-3037-4B7A-92FC-8E50058CAEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C46332-9F81-444F-A1FE-E4F886DD6907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C46332-9F81-444F-A1FE-E4F886DD6907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C46332-9F81-444F-A1FE-E4F886DD6907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C46332-9F81-444F-A1FE-E4F886DD6907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDF241E-11AC-4BF2-9A6D-71FCACFD768D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDF241E-11AC-4BF2-9A6D-71FCACFD768D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDF241E-11AC-4BF2-9A6D-71FCACFD768D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDF241E-11AC-4BF2-9A6D-71FCACFD768D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E674268-9B9C-4390-BDB7-18938F1AF48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E674268-9B9C-4390-BDB7-18938F1AF48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E674268-9B9C-4390-BDB7-18938F1AF48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E674268-9B9C-4390-BDB7-18938F1AF48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1F2972-A62E-4C2A-94E0-EA02FD00DEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1F2972-A62E-4C2A-94E0-EA02FD00DEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1F2972-A62E-4C2A-94E0-EA02FD00DEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1F2972-A62E-4C2A-94E0-EA02FD00DEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7950CAE1-3C1B-4FC5-8508-6A3D2C979524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7950CAE1-3C1B-4FC5-8508-6A3D2C979524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7950CAE1-3C1B-4FC5-8508-6A3D2C979524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7950CAE1-3C1B-4FC5-8508-6A3D2C979524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADED768B-6843-4925-80DC-55A550FA489C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADED768B-6843-4925-80DC-55A550FA489C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADED768B-6843-4925-80DC-55A550FA489C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADED768B-6843-4925-80DC-55A550FA489C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81754D22-3037-4B7A-92FC-8E50058CAEC5} = {6FF8232F-011D-4263-808D-3C45412550DD}
+		{9FDF241E-11AC-4BF2-9A6D-71FCACFD768D} = {DBBC4834-DE03-467D-93FE-AE05D891EDFD}
+		{9E674268-9B9C-4390-BDB7-18938F1AF48C} = {ACFFAB5E-38F1-4F61-A8AE-1DD0DC0FDAE2}
+		{7950CAE1-3C1B-4FC5-8508-6A3D2C979524} = {ACFFAB5E-38F1-4F61-A8AE-1DD0DC0FDAE2}
+		{ADED768B-6843-4925-80DC-55A550FA489C} = {6FF8232F-011D-4263-808D-3C45412550DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1069AD7D-D039-4923-8C99-D243B505EA55}
+	EndGlobalSection
+EndGlobal

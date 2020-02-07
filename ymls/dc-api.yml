@@ -1,0 +1,18 @@
+---
+version: '2'
+services:
+  gerenciamentoprocessosjudiciais-api:
+    image: archt/gerenciamentoprocessosjudiciais.api:8973
+    hostname: gerenciamentoprocessosjudiciais-api
+    container_name: gerenciamentoprocessosjudiciais-api
+    ports:
+      - "5000:80"
+    environment:
+      - ElasticApm__LogLevel=Debug
+      - ElasticApm__ServerUrls=http://apm-server:8200
+      - ElasticApm__ServiceName=FT.GerenciamentoProcessosJudiciais.Api 
+      - ElasticApm__TransactionSampleRate=1.0
+      - ElasticApm__CaptureHeaders=false
+      - RavenDbSettings__DatabaseName=GerenciamentoProcessosJudiciais
+      - RavenDbSettings__Urls=http://ravendb:8080
+      

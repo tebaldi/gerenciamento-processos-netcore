@@ -1,0 +1,50 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: gerenciamentoprocessosjudiciais-api-deployment
+spec:
+  replicas: 4
+  minReadySeconds: 15
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: 
+      maxUnavailable: 3
+      maxSurge: 1 
+  template:
+    metadata:
+      labels:
+        app: ft-gerenciamentoprocessosjudiciais-api
+    spec:
+      containers:
+        - image: archt/gerenciamentoprocessosjudiciais.api:8973
+          imagePullPolicy: Always
+          name: ft-gerenciamentoprocessosjudiciais-api
+          env:
+            - name: ElasticApm__LogLevel
+              value: "Debug"
+            - name: ElasticApm__ServerUrls
+              value: "http://172.26.0.5:8200"
+            - name: ElasticApm__ServiceName
+              value: "FT.GerenciamentoProcessosJudiciais.Api"
+            - name: ElasticApm__TransactionSampleRate
+              value: "1.0"
+            - name: ElasticApm__CaptureHeaders
+              value: "false"
+            - name: RavenDbSettings__DatabaseName
+              value: "GerenciamentoProcessosJudiciais"
+            - name: RavenDbSettings__Urls
+              value: "http://172.26.0.2:8080"
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service              
+metadata:
+  name: gerenciamentoprocessosjudiciais-api-service
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 5000
+    targetPort: 80    
+  selector:
+    app: ft-gerenciamentoprocessosjudiciais-api
